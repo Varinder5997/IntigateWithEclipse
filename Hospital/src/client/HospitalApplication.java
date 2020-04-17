@@ -95,7 +95,7 @@ public class HospitalApplication {
 		Doctor doctor;
 		try {
 			doctor = doctorService.maxSalary();
-			System.out.println("Details of doctor having maximum salary");
+			System.out.println("Details of doctor having maximum ");
 			System.out.println("Name - " + doctor.getDoctorName());
 			System.out.println("Salary " + doctor.getSalary());
 		} catch (ApplicationException e) {
